@@ -46,3 +46,7 @@ To see and update the dependency requirements for your project use `requirements
 > Note: Using `kedro jupyter` or `kedro ipython` to run your notebook provides these variables in scope: `catalog`, `context`, `pipelines` and `session`.
 >
 > Jupyter, JupyterLab, and IPython are already included in the project requirements by default, so once you have run `pip install -r requirements.txt` you will not need to take any extra steps before you use them.
+
+## How to run this project
+!pip install requirements.txt
+Then, you can run locally or in the cloud the notebook.
