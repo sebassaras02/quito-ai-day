@@ -25,7 +25,7 @@ In order to get the best out of the template:
 * Don't commit data to your repository
 * Don't commit any credentials or your local configuration to your repository. Keep all your credentials and local configuration in `conf/local/`
 
-## How to install dependencies
+## How to install dependencies and run the files
 
 Declare any dependencies in `requirements.txt` for `pip` installation.
 
@@ -34,6 +34,8 @@ To install them, run:
 ```
 pip install -r requirements.txt
 ```
+
+Then, you can run locally or in the cloud the notebook.
 
 ## Project dependencies
 
@@ -47,6 +49,4 @@ To see and update the dependency requirements for your project use `requirements
 >
 > Jupyter, JupyterLab, and IPython are already included in the project requirements by default, so once you have run `pip install -r requirements.txt` you will not need to take any extra steps before you use them.
 
-## How to run this project
-!pip install requirements.txt
-Then, you can run locally or in the cloud the notebook.
+
